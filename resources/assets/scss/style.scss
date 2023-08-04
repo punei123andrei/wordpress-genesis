@@ -1,0 +1,17 @@
+
+// this file should be called before external resources import
+@import 'abstracts/variables/custom-fonts';
+
+// External resources
+@import '~bootstrap/scss/bootstrap';
+@import '~bootstrap-icons/font/bootstrap-icons';
+@import '~swiper/swiper-bundle.css';
+
+@import 'abstracts/abstracts';
+@import 'generic/normalize';
+@import 'generic/general';
+@import 'base/base';
+@import 'components/components';
+@import 'utilities/accessibility';
+@import 'utilities/alignments';
+@import 'utilities/margins';
